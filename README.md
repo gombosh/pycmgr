@@ -30,5 +30,6 @@ save the database file in a secure directory and add it (the path) to PYTHON_PAT
 
 use the database:
 ```
-code here
+from example_creds import c1
+print("name:",c1.get_name(),"host:",c1.get_host(),"username:",c1.get_user(),"password:",c1.get_pass())
 ```
