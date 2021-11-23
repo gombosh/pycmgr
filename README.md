@@ -20,7 +20,11 @@ just print out the decoded credentials (unless you actively control the access t
 path where the database is kept, and it could only be imported if you know where it is)
 
 generate the database:
-<code here>
+<
+import pycmgr
+a = pycmgr.gen_creds("cred2","server2","username2","password2")
+a.print_to_file("example_creds.py")
+>
 
 save the database file in a secure directory and add it (the path) to PYTHON_PATH only for yourself!
 
